@@ -7,7 +7,7 @@ module.exports = (req, res, next) => {
   try {
     const header = req.get(headerName);
     if (!R.isNil(header)) {
-      const date = moment(header);
+      const date = moment.utc(header);
       if (!date.isValid()) {
         return next(new Error('Date format is invalid'));
       }
