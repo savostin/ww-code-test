@@ -1,7 +1,5 @@
 # ww-code-test
 
-In this test you will find a wide cross section of the type of code you will be exposed to at Wealth Wizards.
-
 There is no time limit to this test, so feel free to take as little or
 as long as you need to complete each section.\
 If you don't have enough free time to complete every section, instead you can let us know what
@@ -15,8 +13,6 @@ Good luck
 
 ## Instructions
 
-- [ ] Click **[Use this template](https://github.com/WealthWizardsEngineering/ww-code-test/generate)** to create a private repository in your own github account
-- [ ] Invite github users [@lukebrowne](https://github.com/lukebrowne), [@ukslim](https://github.com/ukslim), [@cpettifer](https://github.com/cpettifer), [@ScottEnock](https://github.com/ScottEnock), and [@markjdvs](https://github.com/markjdvs) as collaborators on your repo
 - [ ] Run ```yarn``` to install packages
 - [ ] **Commit all your work on a new branch**
 - [ ] When you are ready **raise a pull request against the master branch of your repo and add us as reviewers**
