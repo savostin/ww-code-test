@@ -17,6 +17,11 @@ module.exports = () => {
     res.status(404).send('Page not found');
   });
 
+  const jsonErrorHandler = (err, req, res, next) => {
+    res.status(500).send({ error: err.message });
+  };
+  app.use(jsonErrorHandler);
+
   app.get('*',
     (req, res) => {
       const pathToIndex = path.join(distPath, 'index.html');
